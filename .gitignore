@@ -1,8 +1,12 @@
 # Ignore all VSIX files
 *.vsix
 
+# Explicitly ignore old versions
+orangesor-1.0.23.vsix
+cursor-theme-*.vsix
+
 # Except the latest public version
-!orangesor-1.0.23.vsix
+!orangesor-1.0.24.vsix
 
 # Antigravity directory
 .antigravity/
