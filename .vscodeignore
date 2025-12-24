@@ -1,0 +1,5 @@
+.vscode/**
+.gitignore
+.git/**
+CHANGELOG.md
+images/icon-original.png

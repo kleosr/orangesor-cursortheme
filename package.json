@@ -1,0 +1,54 @@
+{
+  "name": "orangesor",
+  "displayName": "Orangesor",
+  "description": "The community made theme for Cursor IDE color themes for Visual Studio Code - Dark and Light variants",
+  "version": "1.0.23",
+  "publisher": "kleosr",
+  "author": {
+    "name": "kleosr",
+    "email": "kleosr@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kleosr/cursor-theme"
+  },
+  "homepage": "https://github.com/kleosr/cursor-theme",
+  "bugs": {
+    "url": "https://github.com/kleosr/cursor-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "cursor",
+    "theme",
+    "dark",
+    "light",
+    "color theme",
+    "cursor ide"
+  ],
+  "icon": "images/icon.png",
+  "readme": "README.md",
+  "galleryBanner": {
+    "color": "#14120B",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Orangesor Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cursor-dark.json"
+      },
+      {
+        "label": "Orangesor Light",
+        "uiTheme": "vs",
+        "path": "./themes/cursor-light.json"
+      }
+    ]
+  }
+}

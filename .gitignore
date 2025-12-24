@@ -1,0 +1,92 @@
+# Ignore all VSIX files
+*.vsix
+
+# Except the latest public version
+!orangesor-1.0.23.vsix
+
+# Antigravity directory
+.antigravity/
+**/.antigravity/
+*/.antigravity/
+
+# Operating System Files
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.exe
+*.dll
+*.sys
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Editor/IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.project
+.classpath
+.settings/
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.cache
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*~
+
+# Build Artifacts
+node_modules/
+dist/
+build/
+out/
+*.min.js
+*.min.css
+
+# Package Manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Antivirus/System
+*.quarantine
+*.virus
+*.infected
+*.scan
+*.avscan
+System Volume Information/
+
+# Test Coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Debug
+*.pdb
+*.suo
+*.user
+*.userosscache
