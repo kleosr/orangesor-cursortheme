@@ -1,7 +1,7 @@
 # Orangesor
 
 <p align="center">
-  <img src="https://i.ibb.co/nqVSNhhs/icon.png" alt="Orangesor" width="128" height="128">
+  <img src="images/icon.png" alt="Orangesor" width="128" height="128">
 </p>
 
 <p align="center">
