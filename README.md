@@ -1,55 +1,112 @@
-# Orangesor
+<div align="center">
+  <img src="https://img.shields.io/badge/vscode-%5E1.60.0-blue?style=flat-square" />
+  <img src="https://img.shields.io/github/v/tag/kleosr/cursor-theme?style=flat-square&color=orange" />
+  <img src="https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/theme-dark%20%7C%20light-lightgrey?style=flat-square" />
+  <img src="https://img.shields.io/badge/built%20with-Cursor-6c47ff?style=flat-square" />
+</div>
 
-<p align="center">
-  <img src="images/icon.png" alt="Orangesor" width="128" height="128">
-</p>
+<br />
 
-<p align="center">
-  <strong>Cursor IDE color themes for Visual Studio Code</strong>
-</p>
+<div align="center">
+  <img src="images/icon.png" alt="Orangesor" width="128" height="128" />
+  <h1>Orangesor</h1>
+  <p><strong>Orange-accented color theme for VS Code and Cursor</strong></p>
+  <p>Warm, accessible dark and light variants with a signature orange accent (<code>#F54E00</code>).<br />WCAG AA compliant. Optimized for Cursor AI interface surfaces.</p>
+</div>
+
+<br />
 
 ---
 
-## Themes
+## 📦 Install
+
+### VS Code Marketplace / Cursor Extensions
+
+```bash
+# Open Extensions (Ctrl+Shift+X / Cmd+Shift+X)
+# Search "Orangesor"
+# Click Install
+```
+
+Then select **Preferences: Color Theme** → **Orangesor Dark** or **Orangesor Light**.
+
+### VSIX (Manual Install)
+
+1. Download the latest `.vsix` from [GitHub Releases](https://github.com/kleosr/cursor-theme/releases)
+2. Command Palette → **Extensions: Install from VSIX...**
+3. Choose the downloaded file
+4. Select the theme from **Preferences: Color Theme**
+
+## 🚀 Usage
+
+Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Preferences: Color Theme**. Choose **Orangesor Dark** or **Orangesor Light** to apply.
+
+## 🎨 Themes
 
 ### Orangesor Dark
 
-Dark theme with brownish-black background (`#14120B`) and orange accent (`#F54E00`).
+Dark theme with brownish-black background (<code>#14120B</code>) and orange accent (<code>#F54E00</code>).
 
-![Orangesor Dark](https://i.ibb.co/t9f0DXn/cursor-dark-preview.png)
+![Orangesor Dark](images/cursor-dark-preview.png)
 
 ### Orangesor Light
 
-Light theme with warm beige background (`#F7F7F4`) and orange accent (`#F54E00`).
+Light theme with warm beige background (<code>#F7F7F4</code>) and orange accent (<code>#F54E00</code>).
 
-![Orangesor Light](https://i.ibb.co/PZvv7yQv/cursor-light-preview.png)
+![Orangesor Light](images/cursor-light-preview.png)
 
----
+## ✨ Features
 
-## Installation
+- **Dual variants** — dark and light themes with a consistent warm orange accent
+- **Comprehensive workbench theming** — sidebar, panels, tabs, activity bar, status bar, and more
+- **Rich syntax highlighting** — 30+ token groups covering major languages, markdown, diffs, template literals, regex, and operators
+- **Source control graph** — full scmGraph colors in both themes
+- **Bracket highlighting** — matching bracket pair colors
+- **ANSI color mapping** — semantically correct terminal colors
+- **Cursor AI optimized** — polished for Cursor AI interface surfaces
+- **WCAG AA compliant** — all critical text pairs meet 4.5:1 minimum contrast ratio
 
-1. Open Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
-2. Search `Orangesor`
-3. Click Install
-4. Open Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`)
-5. Select **Preferences: Color Theme**
-6. Choose **Orangesor Dark** or **Orangesor Light**
+## 🏗️ Architecture
 
----
+```
+orangesor-cursortheme/
+├── themes/
+│   ├── cursor-dark.json      # Dark variant token colors
+│   └── cursor-light.json     # Light variant token colors
+├── images/
+│   ├── icon.png               # Extension icon
+│   ├── cursor-dark-preview.png
+│   └── cursor-light-preview.png
+├── package.json               # Extension manifest
+├── CHANGELOG.md               # Release history
+├── LICENSE                    # MIT
+└── README.md
+```
 
-## What's Included
+## 🔧 Development
 
-- Dark and light variants
-- Orange accent color (`#F54E00`) throughout UI
-- Syntax highlighting for major languages
-- Complete workbench theming (sidebar, panels, tabs, AI chat)
+```bash
+git clone https://github.com/kleosr/cursor-theme.git
+cd cursor-theme
+```
 
----
+Edit the JSON files in <code>themes/</code> to adjust colors. Test your changes by pressing <code>F5</code> in VS Code to launch an Extension Development Host window, then select the theme.
 
-Made by **kleosr** for the community.
+### Building the VSIX
 
----
+```bash
+npm install -g @vscode/vsce
+vsce package
+# Output: orangesor-<version>.vsix
+```
 
-## License
+## 🤖 Integration
 
-MIT
+Designed for both VS Code and Cursor. The theme surfaces clean contrast and warm accents across all editor chrome — particularly important for AI chat panels, diff views, and inline suggestions in Cursor.
+
+Built with [Cursor](https://cursor.com).
+
+## 📄 License
+
+MIT. See [LICENSE](LICENSE).
