@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://img.shields.io/badge/vscode-%5E1.60.0-blue?style=flat-square" />
-  <img src="https://img.shields.io/github/v/tag/kleosr/cursor-theme?style=flat-square&color=orange" />
+  <img src="https://img.shields.io/github/v/tag/kleosr/orangesor-cursortheme?style=flat-square&color=orange" />
   <img src="https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/theme-dark%20%7C%20light-lightgrey?style=flat-square" />
   <img src="https://img.shields.io/badge/built%20with-Cursor-6c47ff?style=flat-square" />
@@ -19,7 +19,7 @@
 
 ---
 
-## 📦 Install
+## Install
 
 ### VS Code Marketplace / Cursor Extensions
 
@@ -33,16 +33,16 @@ Then select **Preferences: Color Theme** → **Orangesor Dark** or **Orangesor L
 
 ### VSIX (Manual Install)
 
-1. Download the latest `.vsix` from [GitHub Releases](https://github.com/kleosr/cursor-theme/releases)
+1. Download the latest `.vsix` from [GitHub Releases](https://github.com/kleosr/orangesor-cursortheme/releases)
 2. Command Palette → **Extensions: Install from VSIX...**
 3. Choose the downloaded file
 4. Select the theme from **Preferences: Color Theme**
 
-## 🚀 Usage
+## Usage
 
 Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Preferences: Color Theme**. Choose **Orangesor Dark** or **Orangesor Light** to apply.
 
-## 🎨 Themes
+## Themes
 
 ### Orangesor Dark
 
@@ -56,7 +56,7 @@ Light theme with warm beige background (<code>#F7F7F4</code>) and orange accent 
 
 ![Orangesor Light](images/cursor-light-preview.png)
 
-## ✨ Features
+## Features
 
 - **Dual variants** — dark and light themes with a consistent warm orange accent
 - **Comprehensive workbench theming** — sidebar, panels, tabs, activity bar, status bar, and more
@@ -67,7 +67,7 @@ Light theme with warm beige background (<code>#F7F7F4</code>) and orange accent 
 - **Cursor AI optimized** — polished for Cursor AI interface surfaces
 - **WCAG AA compliant** — all critical text pairs meet 4.5:1 minimum contrast ratio
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 orangesor-cursortheme/
@@ -84,11 +84,11 @@ orangesor-cursortheme/
 └── README.md
 ```
 
-## 🔧 Development
+## Development
 
 ```bash
-git clone https://github.com/kleosr/cursor-theme.git
-cd cursor-theme
+git clone https://github.com/kleosr/orangesor-cursortheme.git
+cd orangesor-cursortheme
 ```
 
 Edit the JSON files in <code>themes/</code> to adjust colors. Test your changes by pressing <code>F5</code> in VS Code to launch an Extension Development Host window, then select the theme.
@@ -101,12 +101,12 @@ vsce package
 # Output: orangesor-<version>.vsix
 ```
 
-## 🤖 Integration
+## Integration
 
 Designed for both VS Code and Cursor. The theme surfaces clean contrast and warm accents across all editor chrome — particularly important for AI chat panels, diff views, and inline suggestions in Cursor.
 
 Built with [Cursor](https://cursor.com).
 
-## 📄 License
+## License
 
 MIT. See [LICENSE](LICENSE).
