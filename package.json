@@ -11,11 +11,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kleosr/cursor-theme"
+    "url": "https://github.com/kleosr/orangesor-cursortheme"
   },
-  "homepage": "https://github.com/kleosr/cursor-theme",
+  "homepage": "https://github.com/kleosr/orangesor-cursortheme",
   "bugs": {
-    "url": "https://github.com/kleosr/cursor-theme/issues"
+    "url": "https://github.com/kleosr/orangesor-cursortheme/issues"
   },
   "engines": {
     "vscode": "^1.60.0"
